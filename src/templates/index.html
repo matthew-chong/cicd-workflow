@@ -55,7 +55,7 @@
             <p>Errors: {{ errors }}</p>
         {% endif %}
 
-        {% if prediction %}
+        {% if prediction is defined %}
             <h2>Model Prediction: {{ prediction }}</h2>
         {% endif %}
 
