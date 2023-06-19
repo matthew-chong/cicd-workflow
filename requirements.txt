@@ -1,5 +1,6 @@
 catboost==1.2
 flask==2.3.2
+gunicorn==20.1.0
 ipykernel==6.23.1
 joblib==1.2.0
 pandas==2.0.2
