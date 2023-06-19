@@ -1,6 +1,6 @@
 # Start your image with a python base image
 # Take your pick from https://hub.docker.com/_/python
-FROM python:3.9.17-slim
+FROM python:3.11-slim
 
 # Set /flask-app as the main application directory
 WORKDIR /flask-app
